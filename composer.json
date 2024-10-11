@@ -26,9 +26,7 @@
   },
   "scripts": {
     "post-create-project-cmd": [
-      "@php -r \"echo PHP_EOL . str_repeat('=', 70) . PHP_EOL;\"",
-      "@php -r \"echo '  Obrigado por usar o HefestosPHP! Forje algo incrível!' . PHP_EOL;\"",
-      "@php -r \"echo str_repeat('=', 70) . PHP_EOL;\""
+      "@php -r \"echo PHP_EOL . str_repeat('=', 70) . PHP_EOL . '  Obrigado por usar o HefestosPHP! Forje algo incrível!' . PHP_EOL . str_repeat('=', 70) . PHP_EOL;\""
     ]
   },
   "minimum-stability": "dev",
