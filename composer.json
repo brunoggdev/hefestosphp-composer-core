@@ -26,7 +26,7 @@
   },
   "scripts": {
     "post-create-project-cmd": [
-        "@php -r \"file_put_contents('php://output', PHP_EOL . str_repeat('=', 70) . PHP_EOL . '  Obrigado por usar o HefestosPHP! Forje algo incrível!' . PHP_EOL . str_repeat('=', 70) . PHP_EOL);\""
+        "@php -r \"file_put_contents('php://output', base64_decode('PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQogIE9icmlnYWRvIHBvciB1c2FyIG8gSGVmZXN0b3NQSFAhIEZvcmplIGFsZ28gaW5jcsOtdmVsIQo9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09'));\""
     ]
   },
   "minimum-stability": "dev",
