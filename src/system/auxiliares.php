@@ -247,7 +247,7 @@ function view(string $nome_view, ?array $dados = []): string
     $view = "Views/$nome_view.php";
     match (true) {
         is_file($arquivo = PASTA_RAIZ . "app/$view") => require $arquivo,
-        is_file($arquivo = PASTA_RAIZ . "system/$view") => require $arquivo,
+        is_file($arquivo = PASTA_RAIZ . "vendor/brunoggdev/hefestosphp-core/src/system/$view") => require $arquivo,
         default => throw new Exception("View '$nome_view' não encontrada.")
     };
 
