@@ -1,7 +1,7 @@
 {
-  "name": "brunoggdev/hefestosphp-core",
-  "type": "project-core",
-  "description": "Core da versão composer HefestosPHP - Framework MVC em português",
+  "name": "brunoggdev/hefestosphp",
+  "type": "project",
+  "description": "HefestosPHP - Framework MVC em português",
   "homepage": "https://github.com/brunoggdev/hefestosphp",
   "keywords": [
     "framework",
@@ -24,6 +24,11 @@
   "require": {
     "php": "^8.0"
   },
-  "minimum-stability": "stable",
+  "scripts": {
+    "post-create-project-cmd": [
+        "@php -r \"file_put_contents('php://output', base64_decode('PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQogIE9icmlnYWRvIHBvciB1c2FyIG8gSGVmZXN0b3NQSFAhIEZvcmplIGFsZ28gaW5jcsOtdmVsIQo9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09'));\""
+    ]
+  },
+  "minimum-stability": "dev",
   "prefer-stable": true
 }
